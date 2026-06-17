@@ -1,16 +1,16 @@
 replicaCount: 2
 
 image:
-repository: riqimaruq/website-klinik
-tag: "1"
-pullPolicy: Always
+  repository: riqimaruq/website-klinik
+  tag: "1"
+  pullPolicy: Always
 
 service:
-type: ClusterIP
-port: 80
+  type: ClusterIP
+  port: 80
 
 ingress:
-enabled: false
+  enabled: false
 
 resources: {}
 
@@ -19,4 +19,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
