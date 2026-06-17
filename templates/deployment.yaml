@@ -9,6 +9,7 @@ matchLabels:
 app: website-klinik
 template:
 metadata:
+  namespace: {{ .Values.namespace }}
 labels:
 app: website-klinik
 spec:

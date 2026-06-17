@@ -1,5 +1,7 @@
 replicaCount: 2
 
+namespace: website-klinik
+
 image:
   repository: riqimaruq/website-klinik
   tag: "1"
@@ -18,4 +20,4 @@ nodeSelector: {}
 
 tolerations: []
 
-affinity: {}
+affinity: []
