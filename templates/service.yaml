@@ -8,4 +8,4 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-  type: {{ .Values.service.type }}
+  type: {{ .Values.service.type | default "ClusterIP" }}
